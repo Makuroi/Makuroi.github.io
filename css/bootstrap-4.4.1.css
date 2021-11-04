@@ -10546,8 +10546,17 @@ a.text-dark:hover, a.text-dark:focus {
 	background-color: #14274E;
 	margin-left: 10vw;
 	border-radius: 0.7vw;
+	color:#FFFFFF;
+	font-family: quicksand;
+	font-size: 2vw;
+	text-align: center;
+	padding: 2vw;
+		
 	
 }
+
+	
+	
 
 .Appstime {
 	display: flex;
@@ -10571,6 +10580,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .Apps {
 	display:flex;
+	flex-direction: column;
 	width: 12.5vw;
 	height: 6.2vw;
 	background-color: #9BA4B4;
@@ -10583,20 +10593,21 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .Apps:hover{
 	display:flex;
+	flex-direction: column;
 	width: 12.5vw;
 	height: 10.2vw;
 	background-color: #9BA4B4;
 	border-radius: 1.1vw;
 	margin-left: 12vw;
 	margin-top: 2vw;
-	align-items:flex-start;
-    justify-content: center;
+   
 	transition: all 500ms ease;
 	
 }
 
 .time {
 	display:flex;
+	flex-direction: column;
 	width: 12.5vw;
 	height: 6.2vw;
 	background-color: #9BA4B4;
@@ -10609,14 +10620,13 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .time:hover{
 	display:flex;
+	flex-direction: column;
 	width: 12.5vw;
 	height: 10.2vw;
 	background-color: #9BA4B4;
 	border-radius: 1.1vw;
 	margin-left: 1.1vw;
 	margin-top: 2vw;
-	align-items: flex-start;
-    justify-content: center;
 	transition: all 500ms ease;
 }
 
@@ -10652,15 +10662,23 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .textbloque2 {
+	display: flex;
 	width: 30vw;
 	height: 25vw;
 	background-color: #14274E;
 	margin-left: 2vw;
 	border-radius: 0.7vw;
+	color:#FFFFFF;
+	font-family: quicksand;
+	font-size: 2vw;
+	text-align: center;
+	justify-content: center;
+	padding: 2vw
 }
 
 .Apps2 {
 	display:flex;
+	flex-direction: column;
 	width: 12.5vw;
 	height: 6.2vw;
 	background-color: #9BA4B4;
@@ -10674,14 +10692,14 @@ a.text-dark:hover, a.text-dark:focus {
 
 .Apps2:hover{
 	display:flex;
+	flex-direction: column;
 	width: 12.5vw;
 	height: 10.2vw;
 	background-color: #9BA4B4;
 	border-radius: 1.1vw;
 	margin-left: 5.5vw;
 	margin-top: 2vw;
-	align-items: flex-start;
-    justify-content: center;
+	
 	transition: all 500ms ease;
 }
 
@@ -10864,4 +10882,63 @@ strong {
 
 html{
 	scroll-behavior: smooth;
+}
+.Apps  span:first-child {
+	display: block;
+	position: sticky;
+	top: 0;
+	transition: all 500ms ease;
+}
+.Apps span:last-child{
+	display: none;
+	transition: all 500ms ease;
+	align-content: center;
+	justify-content: center;
+	padding-top: 2vw;
+}
+.Apps:hover span:last-child{
+	display: flex;
+	transition: all 500ms ease;
+	text-justify: auto;
+	padding-top: 2vw;
+	
+}.Apps2  span:first-child {
+	display: block;
+	position: sticky;
+	top: 0;
+	transition: all 500ms ease;
+}
+.Apps2 span:last-child{
+	display: none;
+	transition: all 500ms ease;
+	align-content: center;
+	justify-content: center;
+	padding-top: 2vw;
+}
+.Apps2:hover span:last-child{
+	display: flex;
+	transition: all 500ms ease;
+	text-justify: auto;
+	padding-top: 2vw;
+	
+}
+.time span:first-child {
+	display: block;
+	position: sticky;
+	top: 0;
+	transition: all 500ms ease;
+}
+.time span:last-child{
+	display: none;
+	transition: all 500ms ease;
+	align-content: center;
+	justify-content: center;
+	padding-top: 1vw;
+}
+.time:hover span:last-child{
+	display: flex;
+	transition: all 500ms ease;
+	text-justify: auto;
+	padding-top: 1vw;
+	
 }
